@@ -1,0 +1,240 @@
+/*Desktop styles*/
+/*top section*/
+#nav-bar ul {
+  background-color: orange;
+  list-style-type: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: inline-block;
+  width: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  line-height: 40px;
+  top: -5em;
+}
+
+li a:hover {
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ .first-section-style {
+  background-image: url("https://www.mini.co.uk/en_GB/home/range/browse_range/_jcr_content/main/par/product_editorial_899543873/productEditorialPar/editorial_grid_row/leftPar/image_item/damImage.narrow.768w.j_1536788348556.jpg");
+ background-size: 100%; 
+ background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Girassol";
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+form {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+}
+
+input[type=email] {
+  height: 30px;
+  width: 140px;
+  text-align: center;
+  fontsize: 0.95em;
+}
+
+input[type=submit] {
+  height: 50px; 
+  width: 100px;
+  background: #ccc;       
+  border: none;
+  cursor: pointer;
+  border-radius: 1.6em; 
+  font-size: 1em;
+  background-color: orange;
+}
+
+.submit {
+  max-width: 100%;
+}
+
+/*section 2*/
+
+iframe {
+  width: 640px; 
+  height: 360px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*section 3*/
+
+h2 {
+  font-size: 2.5em;
+  text-decoration: underline; 
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+
+/*Final section*/
+
+.container {
+  display: flex;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.col img {
+  max-width: 100%;
+}
+
+/*Other*/
+
+.bold {
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.features-style {
+  background-color: RGB(242,240,234);
+}
+  
+section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+} 
+
+.align-center {
+  text-align: center; 
+}
+
+footer {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7em;
+  bottom: -130;
+  position: absolute;
+  right: 0px;
+}
+
+.contacts {
+  color: white;
+  padding-left: 28px; 
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/*Mobile*/ 
+
+@media (max-width: 425px) {
+  
+  h1 
+  {font-size: 1.2em;}  
+  .logo 
+  {width: 25%;}
+  {text-align: left;}
+  #nav-bar ul
+  {margin: 0 auto;}
+  li a 
+  {font-size: 0.2em;}
+  .nav-link
+  {line-height: 10px;}
+  input[type=email] 
+  {height: 10px;}
+  {width: 50px;}
+  {max-width: 100%;}
+  .submit
+  {height: 10px;}
+  {width: 50px;}
+  {font-size: 0.4em}
+  form
+  {padding-top: 0px;}
+  h2 
+  {font-size: 1.25em} 
+  p
+  {font-size: 0.8em;}
+  {line-height: 1em;}
+  h3
+  {font-size: 0.8em;}
+ 
+ /*tablets*/
+ @media (min-width: 416px) and (max-width: 768px) {
+  h1 
+   {font-size: 1em;}
+  form
+  {padding-top: 5px;}
+  }
+  
+  
+ 
+  
+    
+    
+  
+   
+    
+  
+
+
+
+
+ 
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
